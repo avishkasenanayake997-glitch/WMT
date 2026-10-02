@@ -1,0 +1,25 @@
+{
+  "name": "campusconnect-lost-and-found",
+  "version": "1.0.0",
+  "description": "CampusConnect - Lost & Found Management System for SLIIT SE2020",
+  "scripts": {
+    "dev": "npm --prefix backend run dev",
+    "backend": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "mobile": "npm --prefix mobile start",
+    "mobile:dev": "npm --prefix mobile run dev",
+    "web": "npm --prefix mobile run web",
+    "seed": "npm --prefix backend run seed",
+    "test:api": "node backend/test-api.js"
+  },
+  "keywords": [
+    "sliit",
+    "se2020",
+    "react-native",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "SLIIT Student",
+  "license": "ISC"
+}
